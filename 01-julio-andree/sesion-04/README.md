@@ -1,4 +1,4 @@
-# sesión 04 - 10/03
+# sesión 04 - 10/04
 ## Variables: datos que van cambiando  
 Mouse X = Determina posición del mouse  
 mouse Y = Determina posición del mouse  
