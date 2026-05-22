@@ -1,5 +1,5 @@
 # sesión 04 - 23/03
-# Datos dinámicos {variables}  
+# Datos dinámicos variables  
 
 ## Posición del mouse  
 #### mouse X; mouseY; 
