@@ -11,9 +11,10 @@ Nosotros como dupla decidimos trabajar con la problemática de  encasillar/ etiq
 
 Encasillar / etiquetar personas según apariencias 
 -
-Etiqueta (RAE): Calificación estereotipada y simplificadora.
-Encasillar(RAE): Clasificar personas o hechos con criterios poco flexibles o simplistas.
--
+*Etiqueta (RAE): Calificación estereotipada y simplificadora.*
+
+*Encasillar(RAE): Clasificar personas o hechos con criterios poco flexibles o simplistas.*
+
 El problema con encasillar personas según su apariencia es la consecuencia de quitar o eliminar la diversidad y complejidad que posee el humano, reemplazandola por etiquetas simples que promueven el pensamiento estereotipado de quienes nos perciben y de nosotros  mismos.  Esto puede llevar a una crisis de identidad personal ya que al no sentirse de acuerdo con la etiqueta que otras personas tienen sobre ti tendemos a sentir una desconexión con nuestro entorno y nosotros mismos.
 
 las etiquetas en si no suelen ser del todo maliciosas pero al ser tan cerradas en su significado (gay, lesbiana, mujer, hombre, trans, etc.) resultan restrictivas y deshumanizantes. 
@@ -36,16 +37,19 @@ IDEA DEL SKETCH
 *• Descripción objetiva*
 -
 ¿Qué es el proyecto? 
+
 Nuestro proyecto es un código creado en la plataforma de p5.js que tiene como función etiquetar individuos en diferentes identidades sexuales predeterminadas que pueden o no ser acertadas a la realidad.
 
 ¿Qué se ve en pantalla? 
-la pantalla del sketch muestra la cámara del computador que detecta la cara del individuo frente a ella y le designa una bandera de la comunidad lgbt seguida por confeti que cae de manera oscilante sobre el lienzo.
+
+la pantalla del sketch muestra la cámara del computador que detecta la cara del individuo frente a ella y le designa una bandera de la comunidad lgbt. al aparecer la opción de la bandera trans la imagen será seguida por confeti que cae de manera oscilante sobre el lienzo mientras el texto "¡¡¡¡¡¡¡¡ES TRANS!!!!!!!!" aparece en la parte superior de la pantalla.
 ¿Qué elementos visuales aparecen? 
-la cámara donde se aprecia la cara del usuario, las banderas lgbt+ que se posicionan sobre su frente, el texto que determina la pregunta que las banderas deben responder y el confetti que celebra el resultado
+la cámara donde se aprecia la cara del usuario, las banderas lgbt+ que se posicionan sobre su frente, el texto que determina la pregunta que las banderas deben responder y el confetti que celebra el resultado (el confetti solo aparece en el caso de que se muestra la bandera trans).
 
 *• Descripción conceptual*
 -
 Idea central del proyecto y su relación con el sistema diseñado?
+
 Para nuestro sketch nos centraremos en explorar la idea de determinación de identidad sexual pero tomando las características de diferentes etiquetas e implementarlas en una especie de selección aleatoria. el usuario deberá interactuar para ser encasillado en alguna categoría la cual puede o no ser acertada y la respuesta que dé el usuario al sketch demostrará nuestro pensar sobre la problemática tratada. 
 
 Buscamos con el sketch hacer que el usuario se sienta minimizado a una sola identidad por culpa de un sistema invisible que no pueden controlar. Para esto pensamos implementar en nuestro sketch la cámara para detectar la cara del usuario y utilizando imágenes de las banderas de la comunidad LGBT+ seguidas por textos que reafirman la etiqueta seleccionada aleatoriamente por el programa el usuario tendrá el resultado pegado a su frente sin poder deshacerse de él dejando al usuario satisfecho o no con su resultado eso no importa ya que el código no está hecho para tener sensaciones humanas en cuenta y el usuario llevará el peso internalizado de la etiqueta que se le asignó.
