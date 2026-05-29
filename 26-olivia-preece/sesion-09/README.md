@@ -1,4 +1,4 @@
-# sesión 06 - 14/04
+# sesión 09 - 29/05
 
 ## INSTRUCCIONES DEL EXAMEN
 
