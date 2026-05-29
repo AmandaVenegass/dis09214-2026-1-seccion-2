@@ -36,9 +36,9 @@ Representacion de un algoritmo o de los pasos de un proceso. En programación fu
 ## ARRAYS (listas)  
 Contenedor con compartimientos enumerados donde se pueden guardar múltiples elementos bajo un mismo nombre. Es una lista que mantiene varios datos ordenados. Los arreglos (Array) son muy útiles para almacenar datos relacionados y pueden contener datos de cualquier tipo.  (Se empieza a contar desde el 0 no 1)
 EJEMPLO: Imagina un tren con vagones, el tren en si es el array, pero cada vagón es un elemento, y cada elemento puede contener lo que quieras: números enteros, variables, etc)  
-* intaxis: let nombreArray = [e0, e1, e2, e3, e4, e5]; (vamos a hacer una variable, luego el nombre del Array y luego elementos)  (el let es parecido al cons pero mejor usar let)
+* Sintaxis: let nombreArray = [e0, e1, e2, e3, e4, e5]; (vamos a hacer una variable, luego el nombre del Array y luego elementos)  (el let es parecido al cons pero mejor usar let)
 * Ejemplo: let colores = ["red", "orange", "yellow", "green", "blue"];
-* Como uso los lementos: Primero uso el nombre del Array y el elemento -> nombreArray[n° elemento]
+* Como uso los elementos: Primero uso el nombre del Array y el elemento -> nombreArray[n° elemento]
 * Ejemplo: background(coolores[1]); Esto pintará el fondo de mi lienzo en color anaranjado.
 
 ## Class  
@@ -47,5 +47,12 @@ Una clasee o (class) es un molde o plantilla abstracta que define la estructura,
 La sintaxis básica de una clase en JavaScript se estrcutura siempre en tres partes dentro de un bloque de llaves:
 1. La palabra clave calss + nombre que le quieras dar
 2. El método constructor (donde se definen las propiedades del objeto usado.this).
-3. La funciones personalizadas que definen lo que hace el obejto. 
+3. La funciones personalizadas que definen lo que hace el obejto.
+
+
+### DATO
+
+para hacer que la pantalla de p5.js se achioque o agrande y el lienzo o diseño se adapte se hace con function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+
 
