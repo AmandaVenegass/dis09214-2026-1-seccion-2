@@ -21,10 +21,10 @@
 ## DIAGRAMA DE FLUJO  
 ALGORTIMO es una secuencia de instrucciones paso a paso, lógicas, definidas, ordenadas y finitas.  
 Características  
-* Presición  
-* Orden  
-* Finitud  
-* Definición
+* Presición: Cada paso debe estar clarísimo  
+* Orden: Los pasos llevan una secuencia lógica
+* Finitud: Tiene que terminar en algún momento, no puede ser infinito
+* Definición: Si sigues el mismo algoritmo dos veces con los mismos datos, deberías obetener siempre el mismo resultado
 
 Input(Entrada) -> Proceso -> Output(Salida)
 
