@@ -152,5 +152,48 @@ function mousePressed() {
 
 <img width="200" height="200" alt="Captura de pantalla 2026-05-29 113220" src="https://github.com/user-attachments/assets/c8563c18-0743-4638-8313-0b6bba8f3fe7" />
 
+ejemplo5 imagenes artistas (preferible .jpg)
+
+``` 
+// Declaramos las variables globales para que funcionen en todo el código
+
+let Fotos = []; //creamos un Array vacío que se llama Fotos
+let index = 0; // creamos variable para guardar la posición actual en el array
+
+// Creamos también las variables para las imágenes individuales
+let foto0, foto1, foto2, foto3;
+
+function preload() {
+  // precargamos las imágenes
+  foto0 = loadImage("assets/akri.jpg");
+  foto1 = loadImage("assets/princesa.png");
+  foto2 = loadImage("assets/mena.jpg");
+  foto3 = loadImage("assets/gianluca.jpg");
+}
+
+function setup() {
+  createCanvas(600, 600);
+
+  // Llenamos el array global que declaramos arriba (sin usar "let" aquí)
+  Fotos = [foto0, foto1, foto2, foto3];
+}
+
+function draw() {
+  background(220);
+
+  image(Fotos[index], 0, 0, width, height);
+}
+
+function mousePressed() {
+  index = index + 1;
+
+  if (index >= Fotos.length) {
+    index = 0;
+  }
+}
+```
+
+
+
 
 
