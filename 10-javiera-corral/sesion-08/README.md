@@ -19,6 +19,12 @@ Arrays & Class
 
 ARRAYS (listas/arreglos)
 -
+DEFINICIÓN
+
+Un contenedor con compartimentos numerados donde puedes
+guardar múltiples datos bajo un mismo nombre. Es una lista que
+mantiene varios datos ordenados. Los arreglos (Arrays) son muy
+útiles para almacenar datos relacionados.
 
 contendor o compartimiento numerado que contien multiples datos de cualquier tipo guardados bajo el mismo nombre (en programación se cuenta desde 0 en adelante)
 
@@ -116,10 +122,9 @@ function draw() {
 }
 ```
 
-
 <img width="327" height="190" alt="image" src="https://github.com/user-attachments/assets/c6ac0228-4feb-4f31-829c-a86d855581d8" />
 
-ejemplo4 palabras:(hice algunos cambios)
+ejemplo4 palabras:(hice algunos cambios):
 
 ``` 
 let palabras = ["akrilla", "gaga", "XCX", "princesa"]; // Array con palabras
@@ -152,7 +157,7 @@ function mousePressed() {
 
 <img width="200" height="200" alt="Captura de pantalla 2026-05-29 113220" src="https://github.com/user-attachments/assets/c8563c18-0743-4638-8313-0b6bba8f3fe7" />
 
-ejemplo5 imagenes artistas (preferible .jpg)
+ejemplo5 imagenes artistas (usar.jpg):
 
 ``` 
 // Declaramos las variables globales para que funcionen en todo el código
@@ -193,7 +198,80 @@ function mousePressed() {
 }
 ```
 
+Class (molde)
+-
+DEFINICIÓN
 
+Una clase (class) es un molde o plantilla abstracta que define la
+estructura, los datos (propiedades) y los comportamientos
+(métodos) que tendrá un tipo de objeto específico.
+
+Imagínala como el plano de diseño de una casa o un
+cortador de galletas: no es el objeto real en sí, sino
+las instrucciones empaquetadas para fabricar infinitas
+copias independientes basadas en ese mismo modelo
+utilizando la palabra clave new
+
+La sintaxis básica de una clase
+-
+en JavaScript se estructura
+siempre en tres partes dentro
+de un bloque de llaves:  
+1. La palabra clave class +
+nombre que le quiera dar.
+
+2. El método constructor
+(donde se definen las
+propiedades del objeto
+usando .this)
+
+3. Las funciones
+personalizadas que definen lo
+que hace el objeto.
+
+
+ejemplo6 class cuadrado:
+
+```
+function setup() {
+  createCanvas(500, 500);
+  cuadrado1 = new cuadrado();
+  cuadrado2 = new cuadrado();
+  cuadrado3 = new cuadrado();
+}
+
+function draw() {
+  background(129, 167, 242);
+
+  cuadrado1.move();
+  cuadrado1.show();
+  cuadrado2.move();
+  cuadrado2.show();
+  cuadrado3.move();
+  cuadrado3.show();
+}
+
+class cuadrado {
+  constructor() {
+    this.x = 150;
+    this.y = 150;
+  }
+
+  move() {
+    this.x = this.x + random(-5, 5);
+    this.y = this.y + random(-5, 5);
+  }
+  show() {
+    stroke(179, 255, 127);
+    strokeWeight(4);
+    noFill();
+    rect(this.x, this.y, 200, 200);
+  }
+}
+```
+
+
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/e71e7bf6-3f3b-4c82-8795-fd715d02ed47" />
 
 
 
