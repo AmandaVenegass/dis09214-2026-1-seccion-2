@@ -160,6 +160,7 @@ function draw() {
   cuadrado3.show();
 }
 ```
+---
 
 ## Ejemlo de sistema de partículas en p5.js
 
@@ -214,9 +215,152 @@ class Gota {
   }
 }
 ```
+---
 
 ## Encargo para el viernes 5 de junio
 
 * Crear un sistema de partículas, con 5 imágenes (mínimo) en .PNG
 * Se puede crear diseños o usar fotos recortadas.
 * Tema libre.
+
+___ 
+
+# Encargo realizado:
+
+```
+let fondo; // Imagen de fondo
+let Fotos = []; // Aray que almacenará todas las imágenes disponibles
+let FotosParticulas = []; // Array que almacenará las imágenes pequeñas
+let foto0, foto1, foto2, foto3, foto4, foto5; // Lista de fotos a utilizar
+
+// Control de escenas
+let escena = 0; // 0 = imágenes, 1 = lluvia
+let index = 0; // Guarda la imagen del Array que se esta mostrando
+
+function preload() {
+  // Se ejecuta antes que setup y carga las imágenes que se van a utilizar
+
+  fondo = loadImage("FONDO.png"); // Fondo del lienzo
+
+  foto0 = loadImage("nissa1.png"); // Imagen cargada
+  foto1 = loadImage("nissa2.png"); // Imagen cargada
+  foto2 = loadImage("nissa3.png"); // Imagen cargada
+  foto3 = loadImage("nissa4.png"); // Imagen cargada
+  foto4 = loadImage("nissa5.png"); // Imagen cargada
+  foto5 = loadImage("nissa6.png"); // Imagen cargada
+}
+
+function setup() {
+  // Se ejecuta una sola vez al iniciar
+
+  createCanvas(500, 500); // Crea un lienzo de 500x500 píxeles
+
+  Fotos = [ 
+    foto0,
+    foto1,
+    foto2,
+    foto3,
+    foto4,
+    foto5,
+  ]; // Guarda todas las imágenes en un único Array
+
+  crearParticulas(); // Crea las imágenes cuadradas pequeñas
+}
+
+function draw() {
+  // Se ejecuta constantemente, 60 veces por segundo aprox
+
+  // ESCENA 1: SEIS IMÁGENES
+  if (escena == 0) { // Si se presenta la primera escena, se cumple lo siguente
+
+    imageMode(CORNER); // En la primera escena las imágenes se dibujan desde la esquina superior izquierda
+    image(Fotos[index], 0, 0, width, height); // Recorre la lista de imágenes que se encuentran en el Array. Dibuja la imagen actual que esta contenida en el index ocupando todo el tamaño del lienzo
+  }
+
+  // ESCENA 2: LLUVIA DE IMÁGENES
+  else if (escena == 1) { // Si se presenta la segunda escena, se cumple lo siguente
+
+    imageMode(CORNER); // La imagen del fondo se dibuja desde la esquina superior izquierda
+    image(fondo, 0, 0, width, height); // Dibuja el fondo rosado
+
+    imageMode(CENTER); // Dibuja las imágenes desde su centro 
+    for (let i = 0; i < FotosParticulas.length; i++) { // Recorre todas las imágenes del Array
+      FotosParticulas[i].caer(); // Actualiza su posición
+      FotosParticulas[i].mostrar(); // Dibuja la imagen
+    } 
+
+    // Texto
+    fill(255); // Asigna el color blanco al texto
+    stroke(245, 181, 201); // Asigna el color rosado al borde del texto
+    strokeWeight (8); // Asigna el tamaño del borde en 7 píxeles
+    textAlign(CENTER); // Asigna que el texto este alineado
+    textSize(15); // Asigna el tamaño de 14 píxeles al texto
+    text("Haz clic para reiniciar", width / 2, height - 25); // Escribe la frase "Haz clic para reiniciar" en el centro horizontal del lienzo y a 25 píxeles del borde inferior
+  }
+}
+
+// CLIC
+function mousePressed() { 
+  // Galería
+  if (escena == 0) { // Si se presenta la primera escena, se cumple lo siguente 
+    index++; // Se avanza a la siguente imagen
+
+    if (index >= Fotos.length) { // Si ya se visualizaron todas las imágenes, se cumple lo siguente
+      escena = 1; // Cambia a la segunda escena
+    }
+  }
+
+  // LLUVIA DE IMÁGENES
+  else if (escena == 1) { // Si se presenta la segunda escena, se cumple lo siguente
+    reiniciar(); // Al hacer clic en la segunda escena, se reinicia el sketch
+  }
+}
+
+function reiniciar() { // Devuelve todo al estado inicial
+  escena = 0; // Vuelve a las seis imágenes principales
+  index = 0; // Muestra nuevamente la primera imagen
+
+  crearParticulas(); // Genera pequeñas imágenes nuevamente 
+}
+
+function crearParticulas() { // Crea una función llamada crearParticulas
+  FotosParticulas = []; // Elimina las anteriores imágenes pequeñas que estaban guardadas
+
+  for (let i = 0; i < 50; i++) { // Crea 50 imágenes pequeñas nuevas
+    FotosParticulas.push(new ParticulaImagen()); // Las guarda dentro del Array "FotosPasticulas"
+  }
+}
+
+
+// CLASS IMÁGENES PEQUEÑAS
+class ParticulaImagen { // Define el comportamiento de cada imagen flotante
+  
+  constructor() {
+    this.x = random(width);
+    this.y = random(-height, 0);
+
+    this.velocidad = random(0.3, 1); // Avanzará entre 0.3 y 1 píxel cada vez que se ejecute el draw
+    this.tamano = random(40, 80); // Asigna un tamaño aleatorio de cada imagen pequeña de entre 40 y 80 píxeles
+    this.offset = random(1000); // Dale un valor aleatorio para el movimiento lateral
+    this.miFoto = random(Fotos); // Escoge una imagen aleatoria
+  }
+
+  caer() {
+    this.y += this.velocidad; // Movimiento hacia abajo
+
+    this.x += sin(frameCount * 0.02 + this.offset) * 0.4; // Movimiento suabe hacia los lados
+
+    if (this.y > height + 100) { // Si la imagen sale por debajo del lienzo, ocurre lo siguente
+      this.y = random(-300, -50); // Vuele a aparecer arriba
+      this.x = random(width); // Genera una nueva posición en x
+      this.velocidad = random(0.3, 1); // Genera una nueva velocidad
+      this.tamano = random(40, 80); // Genera un nuevo tamaño aleatorio
+      this.miFoto = random(Fotos); // Escoge una nueva imagen aleatoria
+    }
+  }
+
+  mostrar() {
+    image(this.miFoto, this.x, this.y, this.tamano, this.tamano); // Dibuja la imagen de esa partícula en su posiciónal actual (x,y) y con su tamaño actual
+  }
+}
+```
