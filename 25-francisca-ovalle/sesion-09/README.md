@@ -1,4 +1,4 @@
-# sesión 09 - 05/07 Apuntes
+# sesión 09 - 05/06 Apuntes
 ---
 ## ESTADO Y CÁMARA WEB  
 *¿Cómo crear sketch con estados diferentes?*  
