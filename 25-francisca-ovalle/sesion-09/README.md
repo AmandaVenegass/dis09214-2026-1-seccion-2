@@ -40,5 +40,16 @@ La logica del cambio y el reinicio
 3. ***Zona de clic (Botones dibujados con rect o ellipse):***
 - Si no quieres usar botones de *HTML* y prefieres dibujar tus propios botones con rect(), puedes evaluar si el *mouse estaba dentro de esa caja al hacer clic.*
 
-4. Interacciones automaticas (Por tiempo):
+4. ***Interacciones automaticas (Por tiempo):***
+-Por Tiempo (Temporizador): Ideal para una pantalla de introducción *(Splash Screen)* que dura 3 segundos y pasa sola al menú.
+
+### CÁMARA WEB:  
+**createCapture(VIDEO);**  
+1. Crear la variable para la captura, declarar una variable global que guardará el flujo de video de tu cámara web.
+   
+2. Inicializar la cámara en el function *setup()* utilizamos el comando especial *createCapture(VIDEO)* esto le pedirá permiso al navegador para encender la cámara del computador. También definimos tamaño con
+*captura.size(x,y);* y es muy importante agregar *captura.hide();* para que esconda el video que HTML pone abajo por default.
+
+3. Dibujar la cámara en el function *draw()* usamos la función *image()*. p5.js toma cada cuadro *(frame)* de la cámara y lo dibuja en el lienzo en tiempo real.
+
 
