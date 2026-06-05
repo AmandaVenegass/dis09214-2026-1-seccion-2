@@ -13,7 +13,7 @@ variable que guarde en qué pantalla nos encontramos. Empezará en 0.
 let estado = 0; // 0 = Inicio, 1 = Experiencia, 2 = Final
 
 
-CONFIGURAR EL LIENZO (funtion setuo)
+CONFIGURAR EL LIENZO (function setuo)
 -
 
 2. Creamos el lienzo de fondo donde va a ocurrir toda la magia.
