@@ -20,3 +20,13 @@ Usaremos fracciones y proporciones
 Ej: Caentro del lienzo( width/2 y heigth/2)  
 Ej: A un cuarto de pantalla en eje x: (width * 0,25)
 
+### * Paso 4.  
+Incluir un factor de referencia  
+referencia = min(width, height)  
+Creamos una varable global (referencia) y la asignamos para que calcule el mínimo. Observa el ancho y el alto de la ventana, los compara, y se queda solo con el que sea más pequeño en ese momento.
+
+### * Paso 5.   
+Usar translate - push y pop  
+Consejo para proyectos complejos  
+En lugar de hacer matemáticas complejas en cada rect() o ellipse (), usamos translate() para "mover el origen del mundo" y siempre utilizando push() y pop() para cada figura o elemento. 
+
