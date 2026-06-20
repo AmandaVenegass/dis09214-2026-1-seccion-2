@@ -4,7 +4,7 @@ SOLEMNE2
 PROBLEMÁTICA DE GÉNERO LLEVADA AL CÓDIGO 
 -
 
-*Julio Andree, Javiera Corral*
+*Julio Andreé, Javiera Corral*
 -
 Para la solemne 2 de pensamiento computacional nos enfrentamos al desafío de seleccionar una problemática de género y transformar su significado y presencia a un sketch interactivo en la plataforma de P5.js. 
 Nosotros como dupla decidimos trabajar con la problemática de  encasillar/ etiquetar a las personas según su apariencia. 
