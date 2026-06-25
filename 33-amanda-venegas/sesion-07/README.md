@@ -1,5 +1,4 @@
-# 🌸 # sesión 07 - ¿Qué es un
-diagrama de flujo? 🌸
+# 🌸 # sesión 07 - ¿Qué es un diagrama de flujo?  + Class and array🌸
 
 #### Algoritmo 
 Es una secuencia instrucciones paso a paso, lógicas, definidas, ordenadas y finitas que
