@@ -42,17 +42,17 @@ Nuestro proyecto es un código creado en la plataforma de p5.js que tiene como f
 
 ¿Qué se ve en pantalla? 
 
-la pantalla del sketch muestra la cámara del computador que detecta la cara del individuo frente a ella y le designa una bandera de la comunidad LGBTQ+. al aparecer la opción de la bandera trans la imagen será seguida por confeti que cae de manera oscilante sobre el lienzo mientras el texto "¡¡¡¡¡¡¡¡ES TRANS!!!!!!!!" aparece en la parte superior de la pantalla.
+la pantalla del sketch muestra una pantalla con la imagen de soyunapringada y yenesi (miembros de la comunidad LGBTQ+ e inspiraciones para nuestro filtro) que sirve como proposito de una pantalla de inicio donde se le da al usuario las instruccionesde lo que debe hacer para interactiar con el sketch. En la siguiente pantalla de estado la cámara del computador se activa y detecta la cara del individuo frente a ella y de forma aleatoria comienzan a circular diferentes banderas de la comunidad lgbtq+ el usuario al interactuar presionandoo el mouse detiene la circulacion de las imagenes de las banderas y se le designa una bandera al azar. al aparecer la bandera trans la imagen será seguida por confeti que cae de manera oscilante sobre el lienzo mientras el texto "¡¡¡¡¡¡¡¡ES TRANS!!!!!!!!" aparece en la parte superior de la pantalla. el ultimo estado muestra la manera de reiniciar el fitro y volver al inicio.
 
 ¿Qué elementos visuales aparecen? 
 
-la cámara donde se aprecia la cara del usuario, la bandera LGBTQ+ que se posiciona sobre su frente, el texto que determina la identidad en un solo caso resultante (el de la bandera trans) y el confetti que celebra el resultado (el confetti solo aparece en el caso de que se muestra la bandera trans).
+La imagen de soyunapringada y yenesi que muesran las intrucciones del filtro, La cámara donde se aprecia la cara del usuario, la bandera LGBTQ+ que se posiciona sobre su frente, el texto que determina la identidad en un solo caso resultante (el de la bandera trans) y el confetti que celebra el resultado (el confetti solo aparece en el caso de que se muestra la bandera trans).
 
 *• Descripción conceptual*
 -
 Idea central del proyecto y su relación con el sistema diseñado?
 
-Para nuestro sketch nos centraremos en explorar la idea de determinación de identidad sexual tomando las características de diferentes etiquetas e implementarlas en una especie de selección aleatoria. el usuario deberá interactuar para ser encasillado en alguna categoría la cual puede o no ser acertada. la respuesta que dé el usuario al sketch demostrará nuestro pensar sobre la problemática tratada. 
+Para nuestro sketch nos centraremos en explorar la idea de determinación de identidad sexual tomando las características de diferentes etiquetas e implementarlas en una especie de selección aleatoria. el usuario deberá interactuar para ser encasillado en alguna categoría la cual puede o no ser acertada. la respuesta que dé el usuario al sketch demostrará nuestro pensar sobre la problemática tratada aunque nuestro sketch es mar ironico y gracioso ala hora de demostrar el concepto a tratar.
 
 Buscamos con el sketch hacer que el usuario se sienta minimizado a una sola identidad por culpa de un sistema invisible que no pueden controlar. Para esto pensamos implementar en nuestro sketch la cámara para detectar la cara del usuario y utilizando imágenes de las banderas de la comunidad LGBTQ+ seguidas por textos que reafirman la etiqueta seleccionada aleatoriamente por el programa el usuario tendrá el resultado pegado a su frente sin poder deshacerse de él dejando al usuario satisfecho o no con su resultado eso no importa ya que el código no está hecho para tener las emociones humanas en cuenta y el usuario llevará el peso internalizado de la etiqueta que se le asignó.
 
