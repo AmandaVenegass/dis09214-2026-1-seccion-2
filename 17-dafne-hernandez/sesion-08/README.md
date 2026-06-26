@@ -40,6 +40,7 @@ Una clase (class) es un molde abstracto que define la estructura, los datos y lo
     this.y = y;  
     this.size = size;  
 
+![Gato](https://i.pinimg.com/736x/4b/75/2f/4b752f33d74f83e4620391d83fa3f65f.jpg)
 
 
 
