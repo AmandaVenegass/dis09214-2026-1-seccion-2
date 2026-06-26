@@ -29,7 +29,7 @@ USAR TRANSLATE - PUSH Y POP  (En caso de proyectos complejos)
 En lugar de hacer matemáticas complejas en cada rect() o ellipse(), usamos translate() para moverlos.  
 Y siempre utilizando push() y pop() para cada figura o elemento.   
 
-##Load pixels   
+## Load pixels   
 Toma todos los píxeles de la pantalla (o de una imagen) y los carga en la memoria de acceso rápido (RAM). Se comunica directamente con la tarjeta gráfica píxel por píxel en tiempo real.  
 
 
