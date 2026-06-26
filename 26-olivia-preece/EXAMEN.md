@@ -66,7 +66,7 @@ que queremos demostar en nuestro proyecto.
 ![diagramadeflujo](https://github.com/olivi4p/dis09214-2026-1-seccion-2/blob/main/26-olivia-preece/DIAGRAMA%20DE%20FLUJO.png?raw=true) 
 
 ## CÓDIGO DE P5js EN FORMATO MARKDOWN  
-'''javascript  
+```javascript  
 //VARIABLES CREADAS
 let sonidoInterrupcion; //Variable para guardar el sonido de interrupción
 let sonidoAplausos; //Variable para guardar el sonido de aplausos
@@ -397,7 +397,7 @@ fill(255,0,0,70); //Color rojo transparentado
   function windowResized() {//Función que se activa cuando cambia el tamaño de la ventana
     resizeCanvas(windowWidth,windowHeight);//Ajusta el canvas si se cambia el tamaño de la ventana 
   }
-'''
+```
 
 
 
