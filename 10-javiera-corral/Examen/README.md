@@ -148,7 +148,7 @@ aun no agrego imagen
 
 NUESTRO PROYECTO: ¿ERES TRANS?
 -
-
+[¿ERESTRANS](https://editor.p5js.org/andrenaliine/sketches/eyg1--_fPm)
 
 explicación de nuestro sistema:
 -
