@@ -7,7 +7,7 @@ Hecho por :
 
 ----------
 **Link al P5.js:**  
-[P5.js](
+[P5.js](https://editor.p5js.org/gabyferradaexe/sketches/Lt-R7fSRp)
 
 ## ¿Que es el proyecto?
 *El proyecto busca expresar metafóricamente una problemática de género: la brecha de autoridad que existe hacia las mujeres. Esta se refiere a cómo a las mujeres se les otorga menos autoridad, respeto y credibilidad que a los hombres. En el día a día, muchas recibimos cuestionamientos sobre nuestra inteligencia e incluso se nos hace dudar de nuestras propias vivencias, a través de comentarios sobre experiencias que hemos vivido o temas que ya conocemos. Un caso típico es la menstruación o el embarazo, donde muchas veces se minimizan los dolores porque no se comprende que una mujer pueda soportar ciertas experiencias, poniendo constantemente en duda su conocimiento y su experiencia.
