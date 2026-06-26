@@ -22,14 +22,15 @@ La idea de este sketch visual era darle un estilo vintsge usar este recurso de l
 #### ¿Cómo se relaciona esta lógica con la problemática de género elegida?  
 Queríamos abordar la problemática a través de una situación más cotidiana y  neutral, como una llamada telefónica, sin perder la esencia de nuestra segunda solemne, centrada en las frases típicas que muchas mujeres suelen escuchar. Para ello, utilizamos la lógica de emisor y receptor propia de una llamada, pero con una diferencia: en este caso, el receptor no puede responder. Esto hace alusión a la idea de que, dentro de situaciones de mansplaining, la voz de la mujer es constantemente interrumpida o invalidada, reforzando el estereotipo de que siempre sabe menos que un hombre.  
   
-#### INPUT: Detecta cuando el usuario toca el telefono para cambiar al segundo estado.  
-#### PROCESO: Cuando el usuario abre la boca el facesmesh coloca una X roja en la boca abierta y al tocar uno de los tres botones aparece una de las frases dichas anteriormente y abajo sale un boton para terminar la llamada y pasar al ultimo estado.
-#### OUTPUT: Aparecen la señal e asvertencia y la encuesta de satisfacción que invita a que suceda el reset y vuelva al estado 1.  
-En este caso nuestros referentes fueron estas escenas que aprecen abajo y para paleta de colores nos basamos mucho en la estetica retro-pop, agarrandonos de este telefono antiguo, queríamos íronizar la situación, 
+**INPUT**: Detecta cuando el usuario toca el telefono para cambiar al segundo estado.  
+**PROCESO**: Cuando el usuario abre la boca el facesmesh coloca una X roja en la boca abierta y al tocar uno de los tres botones aparece una de las frases dichas anteriormente y abajo sale un boton para terminar la llamada y pasar al ultimo estado.
+**OUTPUT**: Aparecen la señal e asvertencia y la encuesta de satisfacción que invita a que suceda el reset y vuelva al estado 1.   
 
 #### Referentes:  
 En este caso, nuestros referentes fueron las escenas que aparecen a continuación, la escena íconica de la Barbie azafata en los postcreditos de "Toy Story 2". Este recurso nos permitió reforzar la idea de que el usuario está "dentro de una llamada".
 Para la paleta de colores nos inspiramos en la estética retro-pop, utilizando tonos intensos como el rojo y el amarillo, asociados a los teléfonos antiguos y a la gráfica publicitaria de mediados del siglo XX. Elegimos esta estética porque queríamos ironizar la situación: una interfaz llamativa y colorida contrasta con el contenido incómodo de las frases de mansplaining, generando un choque entre la apariencia y el mensaje crítico.  
+
+
 
 
 
