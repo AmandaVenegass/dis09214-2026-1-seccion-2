@@ -6,6 +6,8 @@ Hecho por :
 **Francisca Ovalle**  
 
 ----------
+Link al P5.js: 
+
 ## ¿Que es el proyecto?
 *El proyecto busca expresar metafóricamente una problemática de género: la brecha de autoridad que existe hacia las mujeres. Esta se refiere a cómo a las mujeres se les otorga menos autoridad, respeto y credibilidad que a los hombres. En el día a día, muchas recibimos cuestionamientos sobre nuestra inteligencia e incluso se nos hace dudar de nuestras propias vivencias, a través de comentarios sobre experiencias que hemos vivido o temas que ya conocemos. Un caso típico es la menstruación o el embarazo, donde muchas veces se minimizan los dolores porque no se comprende que una mujer pueda soportar ciertas experiencias, poniendo constantemente en duda su conocimiento y su experiencia.
 Esto programado en p5.js con una resolución nativa de 1920x1080, que se adapta al tamaño de tu navegador web, utiliza (ml5.js y faceMesh) y captura de video en vivo para reflexionar sobre la validación de la voz y el espacio a través de una experiencia en 3 estados.*  
@@ -35,6 +37,6 @@ Para la paleta de colores nos inspiramos en la estética retro-pop, utilizando t
 ![2](https://i.pinimg.com/736x/32/e4/9e/32e49e8f7d5339873205b813e2d8f61b.jpg)![4](https://i.pinimg.com/736x/e0/49/90/e049909bc586cc3803184fa316de3e6b.jpg)![1](https://i.pinimg.com/736x/a2/79/90/a27990d311f39674e2b84862b72f436a.jpg)  
 
 #### Diagrama de flujo:  
-![b](
+![b](https://github.com/frannui/dis09214-2026-1-seccion-2/blob/main/25-francisca-ovalle/Examen/Mi%20primer%20tablero.jpg?raw=true)
 
 
